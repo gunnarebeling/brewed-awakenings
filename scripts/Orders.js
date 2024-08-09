@@ -26,6 +26,7 @@ const findEmployee = (order, allEmployees) => {
     for (const employee of allEmployees) {
         if (employee.id === order.employeeId) {
             orderEmployee = employee
+            break
         }else{
             orderEmployee = {
                 name: "not an employee anymore"
