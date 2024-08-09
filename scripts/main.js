@@ -17,6 +17,7 @@ const applicationHTML = `
     </section>
 </article>
 
+
 <article class="orders">
     <h2>Orders</h2>
     ${Orders()}
